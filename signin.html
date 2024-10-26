@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Jewelry Website</title>
+    <style>
+        body {
+            background: url("logo bg.jpg") no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        .box {
+            height: 450px;
+            width: 400px;
+            background-color: white;
+            border: 2px solid #e33771;
+            border-radius: 10px;
+            margin: 120px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .box p {
+            font-size: 24px;
+            margin: 0;
+            font-weight: bold;
+            color: #e33771;
+        }
+
+        .input-field {
+            height: 30px;
+            width: 250px;
+            margin: 10px auto;
+            display: block;
+            padding: 5px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .btn button {
+            height: 35px;
+            width: 260px;
+            background-color: #e33771;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn button:hover {
+            background-color: wheat;
+            color: #e33771;
+        }
+
+        .login-link {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .login-link a {
+            color: #e33771;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>SIGN UP</p>
+    
+        <input class="input-field" type="text" placeholder="Username">
+        <input class="input-field" type="password" placeholder="Password">
+        <input class="input-field" type="password" placeholder="Confirm Password">
+        <input class="input-field" type="email" placeholder="Email">
+
+        <select class="input-field">
+            <option value="" disabled selected>Select Role</option>
+            <option value="customer">Customer</option>
+            <option value="admin">Admin</option>
+            <option value="cashier">Cashier</option>
+        </select>
+
+        <div class="btn">
+            <button>Sign Up</button>
+        </div>
+
+        <div class="login-link">
+            Already have an account? <a href="login.html">Login here</a>
+        </div>
+    </div>
+</body>
+</html>
